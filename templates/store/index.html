@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% load static %}
+
+      {% block content %}
+
+      <!-- HERO SECTION-->
+      <div class="container">
+        <section class="hero pb-3 bg-cover bg-center d-flex align-items-center" style="background: url({% static 'img/crocodile.jpg' %})">
+          <div class="container py-5">
+            <div class="row px-4 px-lg-5">
+              <div class="col-lg-6">
+                <p class="text-muted small text-uppercase mb-2">Set up mining plan right now</p>
+                <h1 class="h2 text-uppercase mb-3" color="white">Get Your First Bitcoin with the World Leader in Cloud Mining</h1><a class="btn btn-dark" href="{% url 'store:all-categories' %}"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- CATEGORIES SECTION-->
+        <!-- SERVICES-->
+        <section class="py-5 bg-light">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="d-inline-block">
+                  <div class="media align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#delivery-time-1"> </use>
+                    </svg>
+                    <div class="media-body text-left ml-3">
+                      <h6 class="text-uppercase mb-1">Get Your First Bitcoin with the World Leader in Cloud Mining</h6>
+                      <p class="text-small mb-0 text-muted">Solid and pioneering 10 years on the BTC cloud mining market</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="d-inline-block">
+                  <div class="media align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#helpline-24h-1"> </use>
+                    </svg>
+                    <div class="media-body text-left ml-3">
+                      <h6 class="text-uppercase mb-1">Mine Bitcoin with Industry Leaders</h6>
+                      <p class="text-small mb-0 text-muted">Bitfury group is the world's leading full service blockchain technology company and one of the largest insfrastruture providers in the crypto ecosystem</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-inline-block">
+                  <div class="media align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#label-tag-1"> </use>
+                    </svg>
+                    <div class="media-body text-left ml-3">
+                      <h6 class="text-uppercase mb-1">200 000+ users</h6>
+                      <p class="text-small mb-0 text-muted">Registered with Hashing24 Cryptocurrency Mining</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+
+
+        <!-- SERVICES-->
+        <section class="py-5 bg-light">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="d-inline-block">
+                  <div class="media align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#delivery-time-1"> </use>
+                    </svg>
+                    <div class="media-body text-left ml-3">
+                      <h6 class="text-uppercase mb-1">10 years on the market</h6>
+                      <p class="text-small mb-0 text-muted">The company has been operating since 2012 onwards.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="d-inline-block">
+                  <div class="media align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#helpline-24h-1"> </use>
+                    </svg>
+                    <div class="media-body text-left ml-3">
+                      <h6 class="text-uppercase mb-1">Low Entry Point</h6>
+                      <p class="text-small mb-0 text-muted">You can start from $50 with or 0.1TH/s -- get into BTC cloud mining with minimum investments.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-inline-block">
+                  <div class="media align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#label-tag-1"> </use>
+                    </svg>
+                    <div class="media-body text-left ml-3">
+                      <h6 class="text-uppercase mb-1">Brand Recognition</h6>
+                      <p class="text-small mb-0 text-muted">It has over 200 000 active users and the numbers keep growing progressively.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- NEWSLETTER-->
+        <section class="py-5">
+          <div class="container p-0">
+            <div class="row">
+              <div class="col-lg-6 mb-3 mb-lg-0">
+                <h5 class="text-uppercase">Join Us Now!</h5>
+                <p class="text-small text-muted mb-0">.</p>
+              </div>
+              <div class="col-lg-6">
+                <form action="#">
+                  <div class="input-group flex-column flex-sm-row mb-3">
+                    <input class="form-control form-control-lg py-3" type="email" placeholder="Enter your email address" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark btn-block" id="button-addon2" type="submit">Subscribe</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      {% endblock content %}
